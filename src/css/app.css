@@ -365,7 +365,7 @@ h2 {
 }
 @media (max-width: 767px) {
   .subscription .section__title {
-    margin-bottom: 49px;
+    margin-bottom: 45px;
   }
   .subscription__body {
     flex-direction: column;
@@ -373,6 +373,7 @@ h2 {
   }
   .subscription__item {
     width: 100%;
+    letter-spacing: 0.2px;
   }
   .subscription__item_free .subscription__title {
     margin-bottom: 203px;
