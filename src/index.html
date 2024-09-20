@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Box</title>
+    <link rel="stylesheet" href="./css/app.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__inner container">
+        <a href="/" class="header__logo"
+          ><img
+            src="./images/logo.svg"
+            alt="Music Box"
+            width="24"
+            height="24"
+            loading="lazy"
+          />
+          <span>Music Box</span>
+        </a>
+        <nav class="header__menu">
+          <ul class="header__menu_list">
+            <li class="header__menu_item">
+              <a href="#" class="header__menu_link">Главная</a>
+            </li>
+            <li class="header__menu_item">
+              <a href="#" class="header__menu_link">Каталог</a>
+            </li>
+            <li class="header__menu_item">
+              <a href="#" class="header__menu_link">Исполнители</a>
+            </li>
+            <li class="header__menu_item">
+              <a href="#" class="header__menu_link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <form class="header__form">
+          <label for="search" class="header__form_label visually-hiden"
+            >Поиск</label
+          >
+          <input
+            type="text"
+            class="header__form_input"
+            id="search"
+            placeholder="Поиск..."
+          />
+        </form>
+      </div>
+    </header>
+    <main>
+      <section class="hero" id="page-description">
+        <div class="container">
+          <h1>Онлайн музыка где угодно</h1>
+          <h2 class="hero__subtitle">без ограничений</h2>
+          <p class="hero__description">
+            Получите доступ всего за несколько шагов. Заполните форму ниже и
+            откройте мир музыки
+          </p>
+          <form class="form">
+            <div class="form__body">
+              <label for="name" class="form__label visually-hiden">Имя</label>
+              <input
+                type="text"
+                class="form__input"
+                id="name"
+                placeholder="Имя"
+              />
+              <label for="email" class="form__label visually-hiden"
+                >Email</label
+              >
+              <input
+                type="text"
+                class="form__input"
+                id="email"
+                placeholder="Email"
+              />
+            </div>
+            <button class="form__button button button_green" type="submit">
+              Получить доступ
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

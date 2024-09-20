@@ -1,0 +1,57 @@
+.form {
+  max-width: 570px;
+  margin-inline: auto;
+
+  &__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 1.65rem;
+  }
+
+  &__input {
+    min-width: 270px;
+    min-height: 50px;
+    padding-left: 20px;
+    border: 2px solid var(--color-light);
+    border-radius: 3px;
+    background: none;
+
+    &::placeholder {
+      color: white;
+      font-family: var(--font-family-base);
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    &:hover {
+      border-color: var(--color-green);
+    }
+
+    &:focus {
+      background-color: white;
+    }
+  }
+
+  &__button {
+    padding: 20px 30px;
+  }
+}
+
+@include mobile {
+  .form {
+    width: 100%;
+    max-width: unset;
+
+    &__body {
+      flex-direction: column;
+      row-gap: 24px;
+      margin-bottom: 24px;
+    }
+
+    &__input {
+      width: 100%;
+    }
+  }
+}

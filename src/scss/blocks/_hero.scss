@@ -1,0 +1,30 @@
+.hero {
+  background-image: url("/src/images/banner.png");
+  background-position: center;
+  background-size: cover;
+  padding-block: 200px;
+  text-align: center;
+  color: white;
+
+  &__subtitle {
+    margin-bottom: 31px;
+  }
+
+  &__description {
+    margin-bottom: 17px;
+  }
+}
+
+@include mobile {
+  .hero {
+    padding-top: 248px;
+
+    &__subtitle {
+      margin-bottom: 16px;
+    }
+
+    &__description {
+      margin-bottom: 16px;
+    }
+  }
+}
