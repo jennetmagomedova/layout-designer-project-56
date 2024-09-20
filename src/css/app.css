@@ -90,11 +90,8 @@ h2 {
   margin: 0 auto;
 }
 
-section:not(:first-child) {
-  padding-top: 100px;
-}
-
 .section__title {
+  padding-top: 100px;
   margin-bottom: 48px;
 }
 
