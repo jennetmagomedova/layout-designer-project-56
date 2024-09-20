@@ -17,7 +17,7 @@
 
 @include mobile {
   .hero {
-    padding-top: 248px;
+    padding-block: 248px 201px;
 
     &__subtitle {
       margin-bottom: 16px;
