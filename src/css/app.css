@@ -173,10 +173,14 @@ h2 {
   }
 }
 @media (max-width: 767px) {
+  .header__logo {
+    font-weight: bold;
+  }
   .header__menu_list {
     flex-direction: column;
     align-items: flex-start;
     row-gap: 3px;
+    line-height: 13px;
   }
 }
 .form {
@@ -211,6 +215,7 @@ h2 {
   background-color: white;
 }
 .form__button {
+  height: 57px;
   padding: 20px 30px;
 }
 
