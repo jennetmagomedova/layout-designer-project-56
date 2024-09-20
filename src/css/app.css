@@ -173,8 +173,15 @@ h2 {
   }
 }
 @media (max-width: 767px) {
+  .header__inner {
+    row-gap: 0;
+  }
   .header__logo {
     font-weight: bold;
+    margin-bottom: 17px;
+  }
+  .header__menu {
+    margin-bottom: 18px;
   }
   .header__menu_list {
     flex-direction: column;
