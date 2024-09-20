@@ -233,6 +233,8 @@ h2 {
 .form__button {
   height: 57px;
   padding: 20px 30px;
+  font-size: 13.3px;
+  font-family: "Arial", sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -256,8 +258,6 @@ h2 {
   color: white;
   background: none;
   text-transform: uppercase;
-  font-size: 13.3px;
-  font-family: "Arial", sans-serif;
 }
 .button_green {
   border: none;
@@ -364,6 +364,9 @@ h2 {
   }
 }
 @media (max-width: 767px) {
+  .subscription .section__title {
+    margin-bottom: 49px;
+  }
   .subscription__body {
     flex-direction: column;
     gap: 50px;
