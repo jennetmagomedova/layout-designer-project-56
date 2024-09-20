@@ -43,6 +43,14 @@ h2 {
   margin: 0 auto;
 }
 
+section:not(:first-child) {
+  padding-top: 100px;
+}
+
+.section__title {
+  margin-bottom: 48px;
+}
+
 @include mobile {
   h1 {
     font-size: 30px;

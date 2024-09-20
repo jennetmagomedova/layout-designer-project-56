@@ -29,8 +29,6 @@
   --color-purple: #5328a1;
   --color-brown: #95390c;
   --border-radius-button: 5px;
-  --margin-bottom-section: 100px;
-  --margin-bottom-header: 48px;
   --font-family-base: "Roboto", sans-serif;
 }
 
@@ -90,6 +88,14 @@ h2 {
   max-width: 1240px;
   padding-inline: 20px;
   margin: 0 auto;
+}
+
+section:not(:first-child) {
+  padding-top: 100px;
+}
+
+.section__title {
+  margin-bottom: 48px;
 }
 
 @media (max-width: 767px) {
@@ -288,5 +294,87 @@ h2 {
   }
   .hero__description {
     margin-bottom: 16px;
+  }
+}
+.subscription {
+  text-align: center;
+  color: white;
+}
+.subscription__body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 40px;
+}
+.subscription__item {
+  width: calc((100% - 100px) / 3);
+  padding: 24px 1.5rem 64px;
+  border-radius: 1rem;
+  background-position: center;
+  background-size: cover;
+}
+.subscription__item_free {
+  background-image: url("./.././images/subscribe_1.png");
+}
+.subscription__item_standart {
+  background-image: url("./.././images/subscribe_2.png");
+}
+.subscription__item_premium {
+  background-image: url("./.././images/subscribe_3.png");
+}
+.subscription__title {
+  margin-bottom: 200px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.subscription__price {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-self: flex-start;
+  gap: 16px;
+}
+.subscription__price_value {
+  font-size: 64px;
+  line-height: 1;
+}
+.subscription__price_currency {
+  font-size: 32px;
+}
+.subscription__button {
+  display: block;
+  margin-bottom: 64px;
+  width: 100%;
+  height: 66px;
+  padding-block: 21px;
+}
+.subscription__footer {
+  height: 57px;
+  font-size: 12.8px;
+}
+
+@media (max-width: 1023px) {
+  .subscription__body {
+    gap: 24px;
+  }
+  .subscription__item {
+    width: calc((100% - 48px) / 3);
+    padding-top: 16px;
+  }
+  .subscription__title {
+    font-size: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .subscription__body {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .subscription__item {
+    width: 100%;
+  }
+  .subscription__item_free .subscription__title {
+    margin-bottom: 203px;
   }
 }/*# sourceMappingURL=app.css.map */
