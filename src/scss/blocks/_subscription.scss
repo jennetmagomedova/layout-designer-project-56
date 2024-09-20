@@ -86,7 +86,8 @@
 @include mobile {
   .subscription {
     & .section__title {
-      margin-bottom: 45px;
+      padding-top: 99px;
+      margin-bottom: 48px;
     }
     &__body {
       flex-direction: column;

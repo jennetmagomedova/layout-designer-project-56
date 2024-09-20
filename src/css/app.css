@@ -365,7 +365,8 @@ h2 {
 }
 @media (max-width: 767px) {
   .subscription .section__title {
-    margin-bottom: 45px;
+    padding-top: 99px;
+    margin-bottom: 48px;
   }
   .subscription__body {
     flex-direction: column;
