@@ -493,10 +493,8 @@ h2 {
     margin-inline: auto;
   }
   .app__description {
+    font-size: 15px;
     width: 100%;
-  }
-  .app__description > p {
-    letter-spacing: -0.1px;
   }
   .app__button {
     padding-top: 15px;

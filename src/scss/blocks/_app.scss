@@ -47,11 +47,8 @@
     }
 
     &__description {
+      font-size: 15px;
       width: 100%;
-
-      & > p {
-        letter-spacing: -0.1px;
-      }
     }
 
     &__button {
