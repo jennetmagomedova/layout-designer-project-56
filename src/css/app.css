@@ -451,4 +451,54 @@ h2 {
     gap: 16px;
     height: 19px;
   }
+}
+.app {
+  margin-bottom: 100px;
+}
+.app__body {
+  display: flex;
+  gap: 144px;
+}
+.app__description {
+  width: 600px;
+}
+.app__description > * {
+  margin-top: 16px;
+}
+.app__button {
+  width: 131px;
+  height: 53px;
+  border-radius: 32px;
+  background-color: var(--color-brown);
+  text-transform: none;
+  font-size: 12.8px;
+  border: none;
+  padding: 17px 40px;
+}
+.app__button:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 767px) {
+  .app .section__title {
+    padding-top: 101px;
+  }
+  .app__body {
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+  .app__image {
+    width: 100%;
+    height: 100%;
+    max-width: 333px;
+    max-height: 278px;
+    flex-shrink: 0;
+    margin-inline: auto;
+  }
+  .app__description {
+    width: 100%;
+  }
+  .app__button {
+    padding-top: 15px;
+  }
 }/*# sourceMappingURL=app.css.map */
