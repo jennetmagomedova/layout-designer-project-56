@@ -480,9 +480,6 @@ h2 {
 }
 
 @media (max-width: 767px) {
-  .app .section__title {
-    padding-top: 101px;
-  }
   .app__body {
     flex-direction: column-reverse;
     gap: 0;

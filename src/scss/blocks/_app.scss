@@ -32,10 +32,6 @@
 
 @include mobile {
   .app {
-    & .section__title {
-      padding-top: 101px;
-    }
-
     &__body {
       flex-direction: column-reverse;
       gap: 0;
