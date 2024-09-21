@@ -32,6 +32,9 @@
 
 @include mobile {
   .app {
+    & .secton__title {
+      padding-block: 99px 49px;
+    }
     &__body {
       flex-direction: column-reverse;
       gap: 0;
@@ -48,11 +51,12 @@
 
     &__description {
       font-size: 15px;
+      line-height: 24px;
       width: 100%;
-    }
 
-    &__button {
-      padding-top: 15px;
+      > * {
+        margin-top: 15px;
+      }
     }
   }
 }

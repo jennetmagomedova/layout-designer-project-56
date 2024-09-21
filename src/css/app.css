@@ -480,6 +480,9 @@ h2 {
 }
 
 @media (max-width: 767px) {
+  .app .secton__title {
+    padding-block: 99px 49px;
+  }
   .app__body {
     flex-direction: column-reverse;
     gap: 0;
@@ -494,9 +497,10 @@ h2 {
   }
   .app__description {
     font-size: 15px;
+    line-height: 24px;
     width: 100%;
   }
-  .app__button {
-    padding-top: 15px;
+  .app__description > * {
+    margin-top: 15px;
   }
 }/*# sourceMappingURL=app.css.map */
