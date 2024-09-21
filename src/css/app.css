@@ -495,6 +495,9 @@ h2 {
   .app__description {
     width: 100%;
   }
+  .app__description > p {
+    letter-spacing: -0.1px;
+  }
   .app__button {
     padding-top: 15px;
   }
