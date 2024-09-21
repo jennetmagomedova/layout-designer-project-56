@@ -1,0 +1,40 @@
+.popular {
+  & .section__title {
+    text-align: left;
+  }
+
+  &__tracks {
+    display: flex;
+    gap: 25px 49px;
+    flex-wrap: wrap;
+  }
+
+  &__track {
+    width: calc((100% - 49px * 2) / 2);
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 12.8px;
+  }
+
+  &__info {
+    margin-right: auto;
+  }
+
+  &__title {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}
+
+@include mobile {
+  .popular {
+    &__tracks {
+      flex-direction: column;
+    }
+
+    &__track {
+      width: 100%;
+    }
+  }
+}

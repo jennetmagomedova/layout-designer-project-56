@@ -606,4 +606,35 @@ h2 {
   .artist__controls {
     flex-direction: column;
   }
+}
+.popular .section__title {
+  text-align: left;
+}
+.popular__tracks {
+  display: flex;
+  gap: 25px 49px;
+  flex-wrap: wrap;
+}
+.popular__track {
+  width: calc((100% - 98px) / 2);
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-size: 12.8px;
+}
+.popular__info {
+  margin-right: auto;
+}
+.popular__title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .popular__tracks {
+    flex-direction: column;
+  }
+  .popular__track {
+    width: 100%;
+  }
 }/*# sourceMappingURL=app.css.map */
