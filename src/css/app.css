@@ -540,9 +540,13 @@ h2 {
 }
 
 @media (max-width: 767px) {
+  .footer__body {
+    padding-bottom: 78px;
+    margin-bottom: 38px;
+  }
   .footer__body_inner {
     flex-direction: column;
-    gap: 30px;
+    gap: 29px;
   }
   .footer__info_list {
     flex-direction: column;

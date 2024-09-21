@@ -43,9 +43,13 @@
 
 @include mobile {
   .footer {
+    &__body {
+      padding-bottom: 78px;
+      margin-bottom: 38px;
+    }
     &__body_inner {
       flex-direction: column;
-      gap: 30px;
+      gap: 29px;
     }
 
     &__info_list {
