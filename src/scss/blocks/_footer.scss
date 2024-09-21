@@ -1,0 +1,56 @@
+.footer {
+  padding-block: 62px 49px;
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+
+  &__body {
+    padding-bottom: 72px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid white;
+    &_inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
+    }
+  }
+
+  &__column {
+    width: 270px;
+  }
+
+  &__title {
+    text-align: left;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 15px;
+  }
+
+  address {
+    font-style: normal;
+  }
+
+  &__soc1als_list {
+    display: flex;
+    gap: 24px;
+  }
+
+  &__info {
+    &_list {
+      display: flex;
+      gap: 16px;
+    }
+  }
+}
+
+@include mobile {
+  .footer {
+    &__body_inner {
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    &__info_list {
+      flex-direction: column;
+      gap: 16px;
+    }
+  }
+}
