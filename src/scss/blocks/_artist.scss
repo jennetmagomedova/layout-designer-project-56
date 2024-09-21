@@ -1,0 +1,35 @@
+.artist {
+  background-image: url("./.././images/Morten Harket.png");
+  background-position: center;
+  background-size: cover;
+  padding-block: 250px 223px;
+
+  &__title {
+    margin-bottom: 16px;
+  }
+
+  &__listeners {
+    color: white;
+    margin-bottom: 48px;
+  }
+
+  &__controls {
+    display: flex;
+    gap: 24px;
+  }
+
+  &__button {
+    width: 200px;
+    height: 62px;
+  }
+}
+
+@include mobile {
+  .artist {
+    padding-block: 225px 224px;
+
+    &__controls {
+      flex-direction: column;
+    }
+  }
+}

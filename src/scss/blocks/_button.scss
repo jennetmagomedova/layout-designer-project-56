@@ -15,4 +15,32 @@
       opacity: 0.8;
     }
   }
+
+  &_purple {
+    border: none;
+    background-color: var(--color-purple);
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  &_brown {
+    border: none;
+    background-color: var(--color-brown);
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  &_icon {
+    display: flex;
+    align-items: center;
+    padding-left: 31px;
+    gap: 16px;
+
+    & img {
+      filter: invert(1);
+    }
+  }
 }

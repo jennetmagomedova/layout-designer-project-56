@@ -75,6 +75,7 @@ h1 {
   line-height: 90px;
   font-weight: bold;
   text-transform: uppercase;
+  color: white;
 }
 
 h2 {
@@ -268,6 +269,29 @@ h2 {
 }
 .button_green:hover {
   opacity: 0.8;
+}
+.button_purple {
+  border: none;
+  background-color: var(--color-purple);
+}
+.button_purple:hover {
+  opacity: 0.8;
+}
+.button_brown {
+  border: none;
+  background-color: var(--color-brown);
+}
+.button_brown:hover {
+  opacity: 0.8;
+}
+.button_icon {
+  display: flex;
+  align-items: center;
+  padding-left: 31px;
+  gap: 16px;
+}
+.button_icon img {
+  filter: invert(1);
 }
 
 .hero {
@@ -551,5 +575,35 @@ h2 {
   .footer__info_list {
     flex-direction: column;
     gap: 16px;
+  }
+}
+.artist {
+  background-image: url("./.././images/Morten Harket.png");
+  background-position: center;
+  background-size: cover;
+  padding-block: 250px 223px;
+}
+.artist__title {
+  margin-bottom: 16px;
+}
+.artist__listeners {
+  color: white;
+  margin-bottom: 48px;
+}
+.artist__controls {
+  display: flex;
+  gap: 24px;
+}
+.artist__button {
+  width: 200px;
+  height: 62px;
+}
+
+@media (max-width: 767px) {
+  .artist {
+    padding-block: 225px 224px;
+  }
+  .artist__controls {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=app.css.map */
