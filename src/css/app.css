@@ -30,6 +30,7 @@
   --color-brown: #95390c;
   --border-radius-button: 5px;
   --font-family-base: "Roboto", sans-serif;
+  --font-family-form: "Arial", sans-serif;
 }
 
 .visually-hiden {
@@ -149,7 +150,7 @@ h2 {
   background-color: var(--color-dark-alt);
 }
 .header__form_input::placeholder {
-  font-family: "Arial", sans-serif;
+  font-family: var(--font-family-form);
   font-size: 13.3px;
   line-height: 15px;
   text-transform: uppercase;
@@ -237,7 +238,7 @@ h2 {
   height: 57px;
   padding: 20px 30px;
   font-size: 13.3px;
-  font-family: "Arial", sans-serif;
+  font-family: var(--font-family-form);
 }
 
 @media (max-width: 767px) {
@@ -724,12 +725,11 @@ h2 {
 }
 @media (max-width: 1023px) {
   .similar__list {
-    column-gap: 50px;
-    row-gap: 26px;
+    gap: 50px 26px;
   }
   .similar__item {
     width: calc((100% - 100px) / 2);
-    margin-right: 0px;
+    margin-right: 0;
   }
 }
 @media (max-width: 767px) {

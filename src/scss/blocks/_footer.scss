@@ -6,6 +6,7 @@
     padding-bottom: 72px;
     margin-bottom: 40px;
     border-bottom: 2px solid white;
+
     &_inner {
       display: flex;
       justify-content: space-between;
@@ -47,6 +48,7 @@
       padding-bottom: 78px;
       margin-bottom: 38px;
     }
+
     &__body_inner {
       flex-direction: column;
       gap: 29px;

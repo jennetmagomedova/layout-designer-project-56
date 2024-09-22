@@ -1,5 +1,6 @@
 .similar {
   margin-bottom: 100px;
+
   & .section__title {
     text-align: left;
   }
@@ -39,12 +40,12 @@
 
 @include tablet {
   .similar__list {
-    column-gap: 50px;
-    row-gap: 26px;
+    gap: 50px 26px;
   }
+
   .similar__item {
     width: calc((100% - 50px * 2) / 2);
-    margin-right: 0px;
+    margin-right: 0;
   }
 }
 

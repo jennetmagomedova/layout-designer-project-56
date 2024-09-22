@@ -72,6 +72,7 @@
     &__body {
       gap: 24px;
     }
+
     &__item {
       width: calc((100% - 2 * 24px) / 3);
       padding-top: 16px;
@@ -89,6 +90,7 @@
       padding-top: 99px;
       margin-bottom: 48px;
     }
+
     &__body {
       flex-direction: column;
       gap: 50px;

@@ -21,6 +21,7 @@
 
   &__menu {
     margin-right: auto;
+
     &_list {
       display: flex;
       align-items: center;
@@ -38,7 +39,7 @@
     background-color: var(--color-dark-alt);
 
     &::placeholder {
-      font-family: "Arial", sans-serif;
+      font-family: var(--font-family-form);
       font-size: 13.3px;
       line-height: 15px;
       text-transform: uppercase;
@@ -98,6 +99,7 @@
       margin-bottom: 21px;
     }
   }
+
   .header__menu_list {
     flex-direction: column;
     align-items: flex-start;
