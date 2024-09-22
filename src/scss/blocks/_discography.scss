@@ -1,0 +1,59 @@
+.discography {
+  & .section__title {
+    text-align: left;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 25px;
+  }
+
+  &__item {
+    width: calc((100% - 50px * 4) / 4);
+    margin-right: 50px;
+  }
+
+  &__image {
+    margin-bottom: 11px;
+  }
+
+  &__name {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;
+  }
+}
+
+@include desktop {
+  .discography__item {
+    width: calc((100% - 50px * 3) / 3);
+    margin-right: 50px;
+  }
+}
+
+@include tablet {
+  .discography__list {
+    column-gap: 50px;
+  }
+  .discography__item {
+    width: calc((100% - 50px * 2) / 2);
+    margin-right: 0;
+
+    &:nth-of-type(2) {
+      min-width: 138px;
+    }
+  }
+  .discography__name {
+    font-size: 17px;
+  }
+}
+
+@include mobile {
+  .discography__image {
+    width: 137px;
+    height: 137px;
+  }
+}
