@@ -725,6 +725,7 @@ h2 {
 @media (max-width: 1023px) {
   .similar__list {
     column-gap: 50px;
+    row-gap: 26px;
   }
   .similar__item {
     width: calc((100% - 100px) / 2);
@@ -732,6 +733,9 @@ h2 {
   }
 }
 @media (max-width: 767px) {
+  .similar .section__title {
+    padding-block: 99px 49px;
+  }
   .similar__image {
     width: 137px;
     height: 137px;

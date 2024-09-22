@@ -40,6 +40,7 @@
 @include tablet {
   .similar__list {
     column-gap: 50px;
+    row-gap: 26px;
   }
   .similar__item {
     width: calc((100% - 50px * 2) / 2);
@@ -48,6 +49,9 @@
 }
 
 @include mobile {
+  .similar .section__title {
+    padding-block: 99px 49px;
+  }
   .similar__image {
     width: 137px;
     height: 137px;
