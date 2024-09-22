@@ -419,9 +419,6 @@ h2 {
 .news__item:nth-of-type(2n) {
   flex-direction: row-reverse;
 }
-.news__item:nth-of-type(2n) .news__text {
-  margin-bottom: 15px;
-}
 .news__title {
   color: white;
   font-size: 30px;
@@ -430,6 +427,9 @@ h2 {
 }
 .news__text {
   margin-bottom: 24px;
+}
+.news__item:nth-of-type(2n) .news__text {
+  margin-bottom: 15px;
 }
 .news__author {
   display: flex;

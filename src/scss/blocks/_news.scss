@@ -12,10 +12,6 @@
     flex-direction: row-reverse;
   }
 
-  &__item:nth-of-type(2n) .news__text {
-    margin-bottom: 15px;
-  }
-
   &__title {
     color: white;
     font-size: 30px;
@@ -25,6 +21,10 @@
 
   &__text {
     margin-bottom: 24px;
+  }
+
+  &__item:nth-of-type(2n) .news__text {
+    margin-bottom: 15px;
   }
 
   &__author {
