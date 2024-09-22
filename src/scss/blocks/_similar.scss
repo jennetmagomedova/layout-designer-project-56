@@ -1,0 +1,55 @@
+.similar {
+  margin-bottom: 100px;
+  & .section__title {
+    text-align: left;
+  }
+
+  &__list {
+    display: flex;
+    row-gap: 25px;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    width: calc((100% - 50px * 4) / 4);
+    margin-right: 50px;
+  }
+
+  &__image {
+    margin-bottom: 11px;
+  }
+
+  &__info {
+    text-align: center;
+  }
+
+  &__name {
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+  }
+}
+
+@include desktop {
+  .similar__item {
+    width: calc((100% - 50px * 3) / 3);
+    margin-right: 50px;
+  }
+}
+
+@include tablet {
+  .similar__list {
+    column-gap: 50px;
+  }
+  .similar__item {
+    width: calc((100% - 50px * 2) / 2);
+    margin-right: 0px;
+  }
+}
+
+@include mobile {
+  .similar__image {
+    width: 137px;
+    height: 137px;
+  }
+}
