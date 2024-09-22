@@ -10,10 +10,10 @@
 
   &__item:nth-of-type(2n) {
     flex-direction: row-reverse;
+  }
 
-    & .news__text {
-      margin-bottom: 15px;
-    }
+  &__item:nth-of-type(2n) .news__text {
+    margin-bottom: 15px;
   }
 
   &__title {
