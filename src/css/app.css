@@ -725,7 +725,7 @@ h2 {
 }
 @media (max-width: 1023px) {
   .similar__list {
-    gap: 50px 26px;
+    gap: 26px 50px;
   }
   .similar__item {
     width: calc((100% - 100px) / 2);
